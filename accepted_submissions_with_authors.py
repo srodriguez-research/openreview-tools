@@ -6,7 +6,6 @@ import sys
 import coloredlogs
 import openreview
 from dotenv import load_dotenv
-from tqdm import tqdm
 
 coloredlogs.install(level="DEBUG")
 

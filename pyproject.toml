@@ -4,4 +4,8 @@ version = "0.1.0"
 description = "Usefull openreview scripts"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = ["requests>=2.32.3"]
+dependencies = [
+    "coloredlogs>=15.0.1",
+    "dotenv>=0.9.9",
+    "openreview-py>=1.59.1",
+]

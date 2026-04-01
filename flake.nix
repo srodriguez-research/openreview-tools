@@ -23,10 +23,10 @@
             pkgs.uv
             pkgs.git
             pkgs.curl
+            pkgs.zsh
           ];
 
           shellHook = ''
-            zsh
             echo "Python dev environment with uv"
             echo "Python: $(python --version)"
             echo "uv: $(uv --version)"
@@ -38,6 +38,7 @@
             fi
 
             source .venv/bin/activate
+            exec zsh
           '';
         };
       });
