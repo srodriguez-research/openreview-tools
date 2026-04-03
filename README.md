@@ -9,8 +9,12 @@ A simple set of scripts to extract data from Openreview
 
 ## Scripts
 
-`uv run ./accepted_submissions_with_authors.py > accepted_submissions_with_authors.csv`
+### Export submissions 
+`uv run src/org/export_submissions.py`
+
 Generates a CSV of all accepted papers (id, title, decision) with the list of authors (fullname, preferred email)
+
+Thank you Stefano Mariani for contributing the base of this script.
 
 > [!IMPORTANT]
 > Openreview support team may have to enable preferred emails manually if the emails appear obfuscated.
