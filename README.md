@@ -38,3 +38,8 @@ Thank you Stefano Mariani for contributing the base of this script.
 > [!IMPORTANT]
 > Openreview support team may have to enable preferred emails manually if the emails appear obfuscated.
 > Contact support in this case <info@Openreview.net>
+
+# Contributors
+
+- Stefano Mariani 
+- Ruben Glatt
